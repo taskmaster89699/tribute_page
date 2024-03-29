@@ -1,0 +1,71 @@
+img {
+    width: 900px;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 30px auto 30px auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+#img-caption{
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 600;
+}
+
+li {
+    margin: 15px 0;
+}
+
+.child{
+    margin-top: 50px;
+}
+
+.child hr {
+    border: 1px solid grey;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.scientist hr {
+    border: 1px solid grey;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.presidency hr {
+    border: 1px solid grey;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.writings hr {
+    border: 1px solid grey;
+    width: 250px;
+    margin-bottom: 20px;
+
+ul li {
+    font-family: sans-serif;
+    font-size: 13px;
+}
