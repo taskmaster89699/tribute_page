@@ -6,13 +6,18 @@ img {
     margin: 30px auto 30px auto;
 }
 
+body {
+    background: rgb(34, 193, 195);
+    background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
 h1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.image{
+.image {
     display: block;
     text-align: center;
     align-items: center;
@@ -27,7 +32,7 @@ h2 {
     margin-top: 70px;
 }
 
-#img-caption{
+#img-caption {
     margin-bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
@@ -38,7 +43,7 @@ li {
     margin: 15px 0;
 }
 
-.child{
+.child {
     margin-top: 50px;
 }
 
@@ -65,7 +70,7 @@ li {
     width: 250px;
     margin-bottom: 20px;
 
-ul li {
-    font-family: sans-serif;
-    font-size: 13px;
-}
+    ul li {
+        font-family: sans-serif;
+        font-size: 13px;
+    }
